@@ -1,0 +1,32 @@
+.switch-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.switch-box{
+    width: 200px;
+    height: 200px;
+    border: 4mm ridge black;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+    
+}
+
+.switch-off{
+    background-color: white;
+}
+
+.switch-on{
+    background-color: yellow;
+}
+
+#switch-label{
+font-style: italic;
+padding-top: 25%;
+}

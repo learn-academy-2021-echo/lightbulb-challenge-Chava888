@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import './App.css'
+import SwitchOnOff from './components/SwitchOnOff'
 
-class App extends Component{
-  render(){
-    return(
+class App extends Component {
+  render() {
+    return (
       <>
-        <h1>Hello World!</h1>
+        <SwitchOnOff />{/*Added the switchOnOff toggle component*/}
       </>
     )
   }
