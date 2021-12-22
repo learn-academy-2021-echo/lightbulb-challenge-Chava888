@@ -1,0 +1,14 @@
+.yellowLight{
+    fill: yellow;
+    filter: drop-shadow(0 -60px 3rem yellow);
+    
+} 
+.whiteLight{
+    fill: white;
+}
+
+.lightBulb-Container{
+    width: 300px;
+    border-radius: 10%;
+    border: 5px solid white;
+}

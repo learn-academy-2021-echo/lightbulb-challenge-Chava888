@@ -6,7 +6,9 @@ class App extends Component {
   render() {
     return (
       <>
+
         <SwitchOnOff />{/*Added the switchOnOff toggle component*/}
+
       </>
     )
   }
