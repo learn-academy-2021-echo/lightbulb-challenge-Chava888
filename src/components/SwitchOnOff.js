@@ -28,6 +28,8 @@ export default class SwitchOnOff extends Component {
 
         /*The div switch-container has an event listener that will triggle the toggle method if clicked
         Based on the trigger for toggle, h1 tag and background color of box will change*/
+        //The lightBulb component is rendered with the passed on state property lightSwitch
+        //The text "I" is meant for on and the "O" is meant for off.
         return (
             <div className="switchOnOff-container">
                 <h1 id="switchOnOff-title">Edison Light</h1>

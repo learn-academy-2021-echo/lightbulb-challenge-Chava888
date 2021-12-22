@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './LightBulb.css'
-import SwitchOnOff from './SwitchOnOff'
 
+/*This class component creates the yellow bulb and white bulb based on a svg and changing the className
+The className changes based on the pass on lightOn property from the parent component "SwitchOnOff" */
 export default class LightBulb extends Component {
 
 	constructor(props) {
