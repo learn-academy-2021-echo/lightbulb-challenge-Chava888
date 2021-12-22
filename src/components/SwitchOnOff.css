@@ -1,32 +1,85 @@
-.switch-container{
+.switchOnOff-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    
+    border: 5px solid white;
+    border-radius: 5%;
+    width: 400px;
+    height: 600px; 
 }
+
+
 
 .switch-box{
-    width: 200px;
-    height: 200px;
-    border: 4mm ridge black;
-    border-radius: 20%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
- 
+    background-color: black;
+    border-radius: 50%;
+    margin:4px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(26, 255, 61, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+.switch-label{
+font-style: bold;
+margin: 25%;
+}
+
+
+#icon{
+    margin: 0px;
+    color:white;
+}
+
+
+#icon:hover{
+    color:rgb(30, 225, 30);
+    }
+
+
+#switchOnOff-title{
+    color:white;
     
 }
 
-.switch-off{
-    background-color: white;
+.wrapperOneForButton{
+    background: white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.switch-on{
-    background-color: yellow;
+.wrapperTwoForButton{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,255,96,1) 75%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    padding: 2%;
+    
 }
 
-#switch-label{
-font-style: italic;
-padding-top: 25%;
+.wrapperTwoForButton:hover{
+    animation: rotation 2s infinite linear;
 }
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+

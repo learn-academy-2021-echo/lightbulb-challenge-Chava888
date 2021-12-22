@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import "./SwitchOnOff.css"
-
+import LightBulb from './LightBulb'
 
 /*Create two state properties: 
 ligthSwitch property checks the state of on/off condition - a.k.a toggle
@@ -29,10 +29,20 @@ export default class SwitchOnOff extends Component {
         /*The div switch-container has an event listener that will triggle the toggle method if clicked
         Based on the trigger for toggle, h1 tag and background color of box will change*/
         return (
-            <div onClick={this.handleToggleChange} className="switch-container">
-                <h1>Light Bulb Challenge</h1>
-                <div className={lightSwitch ? "switch-box switch-on" : "switch-box switch-off"}>
-                    <h1 id="switch-label">{lightSwitch ? "On" : "Off"}</h1>
+            <div className="switchOnOff-container">
+                <h1 id="switchOnOff-title">Edison Light</h1>
+                <LightBulb lightOn={this.state.lightSwitch} />
+
+                <div className="wrapperTwoForButton">
+                    <div className="wrapperOneForButton">
+                        <div onClick={this.handleToggleChange} >
+                            <div className="switch-box">
+                                <div className="switch-label">
+                                    <h1 id="icon">{lightSwitch ? "I" : "O"}</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
