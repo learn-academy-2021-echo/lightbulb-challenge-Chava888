@@ -1,9 +1,9 @@
-.yellowLight{
+.lightBulb-yellowLight{
     fill: yellow;
     filter: drop-shadow(0 -60px 3rem yellow);
     
 } 
-.whiteLight{
+.lightBulb-whiteLight{
     fill: white;
 }
 

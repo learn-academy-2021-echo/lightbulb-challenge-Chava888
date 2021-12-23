@@ -10,7 +10,7 @@
 
 
 
-.switch-box{
+.switchOnOff-switch-box{
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -25,19 +25,19 @@
 
 
 
-.switch-label{
+.switchOnOff-switch-label{
 font-style: bold;
 margin: 25%;
 }
 
 
-#icon{
+#switchOnOff-icon{
     margin: 0px;
     color:white;
 }
 
 
-#icon:hover{
+#switchOnOff-icon:hover{
     color:rgb(30, 225, 30);
     }
 
@@ -47,7 +47,7 @@ margin: 25%;
     
 }
 
-.wrapperOneForButton{
+.switchOnOff-wrapperOneForButton{
     background: white;
     border-radius: 50%;
     height: 100px;
@@ -57,7 +57,7 @@ margin: 25%;
     align-items: center;
 }
 
-.wrapperTwoForButton{
+.switchOnOff-wrapperTwoForButton{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,255,96,1) 75%);
     border-radius: 50%;
     height: 100px;
@@ -70,7 +70,7 @@ margin: 25%;
     
 }
 
-.wrapperTwoForButton:hover{
+.switchOnOff-wrapperTwoForButton:hover{
     animation: rotation 2s infinite linear;
 }
 

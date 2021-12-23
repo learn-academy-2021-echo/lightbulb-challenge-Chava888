@@ -1,0 +1,32 @@
+.addRemoveBulbs-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:20px;
+}
+
+
+.addRemoveBulbs-buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.AddRemoveBulbs-label{
+    color: white;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,255,96,1) 0%);
+    border-radius: 5%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.addRemoveBulbs-h2{
+    margin-top:10px;
+}
+
+.addRemoveBulbs-h2:hover{
+    color:rgb(97, 208, 60);
+}
