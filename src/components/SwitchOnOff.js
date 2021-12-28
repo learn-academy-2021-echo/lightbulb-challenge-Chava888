@@ -10,8 +10,7 @@ export default class SwitchOnOff extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            lightSwitch: false,
-            lightColor: "white"
+            lightSwitch: false
         }
     }
 
@@ -35,12 +34,12 @@ export default class SwitchOnOff extends Component {
                 <h1 id="switchOnOff-title">Edison Light</h1>
                 <LightBulb lightOn={this.state.lightSwitch} />
 
-                <div className="wrapperTwoForButton">
-                    <div className="wrapperOneForButton">
+                <div className="switchOnOff-wrapperTwoForButton">
+                    <div className="switchOnOff-wrapperOneForButton">
                         <div onClick={this.handleToggleChange} >
-                            <div className="switch-box">
-                                <div className="switch-label">
-                                    <h1 id="icon">{lightSwitch ? "I" : "O"}</h1>
+                            <div className="switchOnOff-switch-box">
+                                <div className="switchOnOff-switch-label">
+                                    <h1 id="switchOnOff-icon">{lightSwitch ? "I" : "〇"}</h1>
                                 </div>
                             </div>
                         </div>

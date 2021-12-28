@@ -14,7 +14,7 @@ export default class LightBulb extends Component {
 		return (
 			<div className="lightBulb-Container">
 				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.994 283.994">
-					<path className={this.props.lightOn ? "yellowLight" : "whiteLight"}/*Top color of lightbulb*/ d="M122.086,132.667c3.136,3.199,8.236,3.199,11.372,0c3.168-3.168,3.168-8.331,0-11.499
+					<path className={this.props.lightOn ? "lightBulb-yellowLight" : "lightBulb-whiteLight"}/*Top color of lightbulb*/ d="M122.086,132.667c3.136,3.199,8.236,3.199,11.372,0c3.168-3.168,3.168-8.331,0-11.499
                     l-2.217-2.281h24.772l-18.215,18.437c-1.489,1.521-2.344,3.611-2.344,5.765v54.74h-27.813V169.35
                     c0-2.914-1.552-5.607-4.055-7.064c-23.949-13.938-38.806-39.914-38.806-67.823c0-43.114,34.624-78.181,77.199-78.181
                     s77.231,35.068,77.231,78.181c0,28.732-15.522,55.088-40.484,68.805c-2.598,1.394-4.213,4.15-4.213,7.159v27.401h-22.967
@@ -46,11 +46,11 @@ export default class LightBulb extends Component {
 								C179.106,222.284,177.904,223.52,176.414,223.52z"/>
 					<path style={{ fill: "white" }} d="M151.768,262.199v0.697c0,2.629-2.122,4.783-4.752,4.783h-10.675
 								c-2.598,0-4.752-2.154-4.752-4.783v-0.697H151.768z"/>
-					<path className={this.props.lightOn ? "yellowLight" : "whiteLight"} /*Left color of lightbulb*/ d="M103.586,162.286c2.503,1.457,4.055,4.15,4.055,7.064v28.478h27.813v-54.74
+					<path className={this.props.lightOn ? "lightBulb-yellowLight" : "lightBulb-whiteLight"} /*Left color of lightbulb*/ d="M103.586,162.286c2.503,1.457,4.055,4.15,4.055,7.064v28.478h27.813v-54.74
 						c0-2.154,0.855-4.245,2.344-5.765l1.438-1.454c-28.497-0.653-52.709-8.499-70.458-16.71
 						C74.702,137.086,86.939,152.599,103.586,162.286z"/>
 
-					<path className={this.props.lightOn ? "yellowLight" : "whiteLight"} /*Right color of lightbulb*/ d="M163.156,134.701l-11.61,11.746v51.382h22.967v-27.401c0-3.009,1.616-5.765,4.213-7.159
+					<path className={this.props.lightOn ? "lightBulb-yellowLight" : "lightBulb-whiteLight"} /*Right color of lightbulb*/ d="M163.156,134.701l-11.61,11.746v51.382h22.967v-27.401c0-3.009,1.616-5.765,4.213-7.159
 						c17.29-9.5,30.037-25.067,36.249-43.285C196.874,128.141,179.49,132.718,163.156,134.701z"/>
 				</svg>
 			</div>
